@@ -82,9 +82,6 @@
 # Swap
 /dev/block/zram1                                        u:object_r:swap_block_device:s0
 
-# Data files
-/data/per_boot(/.*)?                                                 u:object_r:per_boot_file:s0
-
 # USB
 /sys/devices/platform/vendor/vendor:lge_usb_ds3/extcon/extcon5/cable.0(/.*)?                 u:object_r:sysfs_lge_usb:s0
 

@@ -31,6 +31,3 @@ type sysfs_lge_usb, sysfs_type, fs_type;
 type sysfs_camera_sensors, sysfs_type, fs_type;
 type sysfs_sensor_ssc, sysfs_type, fs_type;
 type sysfs_lge_sar_rf, sysfs_type, fs_type;
-
-# Data files
-type per_boot_file, file_type, data_file_type, core_data_file_type;
