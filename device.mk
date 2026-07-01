@@ -173,6 +173,9 @@ PRODUCT_COPY_FILES += \
 # Init
 $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_lge_kona)
 
+# ION
+$(call soong_config_set_bool,libion,legacy_impl,true)
+
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/keylayout/,$(TARGET_COPY_OUT_VENDOR)/usr/keylayout)
