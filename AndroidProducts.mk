@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_timelm.mk
+    $(LOCAL_DIR)/infinity_timelm.mk
