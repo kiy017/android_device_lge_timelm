@@ -5,6 +5,8 @@
 
 DEVICE_PATH := device/lge/timelm
 
+BUILD_BROKEN_DUP_RULES := true
+
 # A/B
 AB_OTA_PARTITIONS += \
     boot \
