@@ -9,7 +9,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from device
 $(call inherit-product, device/lge/timelm/device.mk)
-
+TARGET_DISABLE_EPPE := true
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
@@ -26,3 +26,23 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=timelm \
     BuildDesc="timelm-user 13 TKQ1.220829.002 2318902104908 release-keys" \
     BuildFingerprint=lge/timelm/timelm:13/TKQ1.220829.002/2318902104908:user/release-keys
+
+# Device Flags
+
+# Maintainer name (use "_" for spaces, e.g., "rmp_22" → "rmp 22" in UI)
+AXION_MAINTAINER := Kiyomi
+
+# Processor name (use "_" for spaces)
+AXION_PROCESSOR := Snapdragon_865_5G
+
+# Define rear camera specs (multiple sensors supported)
+AXION_CAMERA_REAR_INFO := 64,13
+
+# Define front camera specs
+AXION_CAMERA_FRONT_INFO := 10
+
+# Torch Control
+TORCH_STR_SUPPORTED := true
+
+# BLur
+TARGET_ENABLE_BLUR := true
