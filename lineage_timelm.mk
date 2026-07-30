@@ -41,8 +41,7 @@ AXION_CAMERA_REAR_INFO := 64,13
 # Define front camera specs
 AXION_CAMERA_FRONT_INFO := 10
 
-# Torch Control
-TORCH_STR_SUPPORTED := true
-
 # BLur
 TARGET_ENABLE_BLUR := true
+
+TARGET_INCLUDE_AXFX := true
