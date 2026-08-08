@@ -44,4 +44,8 @@ AXION_CAMERA_FRONT_INFO := 10
 # BLur
 TARGET_ENABLE_BLUR := true
 
+# AxionFX
 TARGET_INCLUDE_AXFX := true
+
+# Fix Video Playback
+TARGET_NEEDS_VULKAN_MEDIA_FIX := true
