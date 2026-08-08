@@ -155,6 +155,11 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Partitions - reserved size
 include vendor/lineage/config/BoardConfigReservedSize.mk
 
+# Partitions - Add extra space for gapps
+BOARD_PRODUCTIMAGE_PARTITION_RESERVED_SIZE := 1800000000
+BOARD_SYSTEMIMAGE_PARTITION_RESERVED_SIZE := 500000000
+BOARD_SYSTEM_EXTIMAGE_PARTITION_RESERVED_SIZE := 500000000
+
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := kona
