@@ -1,0 +1,7 @@
+android_app {
+    name: "FpDim",
+    srcs: ["src/**/*.java"],
+    platform_apis: true,
+    privileged: true,
+    certificate: "platform",
+}
