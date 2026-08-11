@@ -90,3 +90,5 @@
 
 # Wireless charger
 /sys/devices/platform/soc/990000.i2c/i2c-1/1-0061/power_supply/wireless(/.*)?                u:object_r:sysfs_powersupply_wireless:s0
+
+/sys/devices/virtual/panel/brightness/fp_lhbm                u:object_r:sysfs_fp_lhbm:s0

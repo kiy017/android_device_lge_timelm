@@ -1,1 +1,1 @@
-allow platform_app sysfs_panel:file read;
+allow platform_app sysfs_fp_lhbm:file read;
