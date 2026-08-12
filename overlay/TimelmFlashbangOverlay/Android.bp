@@ -1,5 +1,5 @@
 android_app {
-    name: "FpDim",
+    name: "TimelmFlashbangOverlay",
     srcs: ["src/**/*.java"],
     platform_apis: true,
     privileged: true,
