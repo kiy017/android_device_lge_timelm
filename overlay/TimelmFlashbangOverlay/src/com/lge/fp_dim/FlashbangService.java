@@ -1,4 +1,4 @@
-package com.lge.fpdim;
+package com.lge.flashbang;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -20,8 +20,8 @@ import android.widget.FrameLayout;
 import java.io.BufferedReader;
 import java.io.FileReader;
 
-public class FpDimService extends Service {
-    private static final String TAG = "FpDim";
+public class FlashbangService extends Service {
+    private static final String TAG = "flashbang";
     private static final String LHBM_PATH = "/sys/devices/virtual/panel/brightness/fp_lhbm";
     private static final int MAX_BRIGHTNESS = 255;
     private static final int POLL_INTERVAL_MS = 150;
