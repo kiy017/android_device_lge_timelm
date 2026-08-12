@@ -1,4 +1,4 @@
-package com.lge.fpdim;
+package com.lge.flashbang;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,7 +8,7 @@ public class StartActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Intent intent = new Intent(this, FpDimService.class);
+        Intent intent = new Intent(this, FlashbangService.class);
         startForegroundService(intent);
         finish();
     }
