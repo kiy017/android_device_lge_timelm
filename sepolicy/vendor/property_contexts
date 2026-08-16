@@ -10,6 +10,9 @@ vendor.lge.audio.hifi_rec.                          u:object_r:vendor_audio_prop
 vendor.lge.fm_gain_control_headset                  u:object_r:vendor_audio_prop:s0
 vendor.lge.fm_gain_control_speaker                  u:object_r:vendor_audio_prop:s0
 
+# Audio - AISound
+persist.lge.audio.aisound.                          u:object_r:lge_aisound_prop:s0
+
 # Camera
 persist.vendor.lge.camera.                          u:object_r:vendor_camera_prop:s0
 ro.vendor.lge.aux.camera                            u:object_r:vendor_camera_prop:s0
