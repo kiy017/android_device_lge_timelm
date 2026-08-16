@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "hardware_lge",
+    "target_path": "hardware/lge"
+  },
+  {
+    "repository": "kernel_lge_sm8250",
+    "target_path": "kernel/lge/sm8250"
+  },
+  {
+    "repository": "vendor_lge_timelm",
+    "target_path": "vendor/lge/timelm"
+  }
+]
