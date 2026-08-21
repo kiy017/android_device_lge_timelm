@@ -1,0 +1,13 @@
+cc_prebuilt_library_shared {
+    name: "libsignal_shim",
+    srcs: ["signal_shim.c"],
+    shared_libs: [
+        "liblog",
+    ],
+    cflags: [
+        "-Wall",
+        "-Wl,--wrap=RIL_onRequestComplete",
+    ],
+    relative_install_path: "hw",
+    vendor: true,
+}

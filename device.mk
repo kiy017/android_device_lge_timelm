@@ -28,7 +28,8 @@ PRODUCT_PACKAGES += \
     TimelmLineageSettingsProviderOverlay \
     TimelmSettingsOverlay \
     TimelmSystemUIOverlay \
-    LGEAISound
+    LGEAISound \
+    libsignal_shim
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
