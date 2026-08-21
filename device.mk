@@ -403,5 +403,8 @@ PRODUCT_PACKAGES += \
     firmware_WCNSS_qcom_cfg.ini_symlink \
     firmware_wlan_mac.bin_symlink
 
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.debuggable=1
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/lge/timelm/timelm-vendor.mk)
