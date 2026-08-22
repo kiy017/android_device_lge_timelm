@@ -1,4 +1,4 @@
-cc_prebuilt_library_shared {
+cc_library_shared {
     name: "libsignal_shim",
     srcs: ["signal_shim.c"],
     shared_libs: [
@@ -6,8 +6,12 @@ cc_prebuilt_library_shared {
     ],
     cflags: [
         "-Wall",
+    ],
+    ldflags: [
         "-Wl,--wrap=RIL_onRequestComplete",
     ],
-    relative_install_path: "hw",
+    include_dirs: [
+        "hardware/ril/include",
+    ],
     vendor: true,
 }
